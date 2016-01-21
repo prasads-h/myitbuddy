@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+	
+		<title>MIB - MYITBuddy</title>
+		<link href="images/ico/favicon.png" rel="shortcut icon">
+		<link href="assets/css/ihover.css" rel="stylesheet">
+		<link href="assets/css/bootstrap.css" rel="stylesheet">
+		<link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+		<link href="assets/css/loginchoose.css" rel="stylesheet">
+		<link href="assets/css/styles.css" rel="stylesheet">
+
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		
+
+		
+	</head>
+	<header class="header">&nbsp;</header>
+	<body class=" container-fluid">
+		<div class="row loginchoose">
+			<div class="col-md-offset-4 col-md-3 col-xs-8 col-xs-offset-2 rows">
+				<h1 class="row logotext">
+					MY IT BUDDY
+				</h1>
+				<div class="row border-center focused-view-subtitle">
+					<span>LOG IN</span>
+				</div>
+				<div class="row">
+					<button class="btn ">Log In as Buddy</button>
+				</div>
+				<div class="row">
+					<button class="btn customerBtn " data-target="#fcModal">Log In as Customer</button>
+				</div>
+				
+				
+			</div>
+		</div>
+
+		<!-- Modal -->
+<div class="modal fade" id="fcModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <!-- <h4 class="modal-title" id="myModalLabel">Modal title</h4> -->
+      </div>
+      <div class="modal-body signinbody">
+      	<div class="row">
+      		<div class="col-md-6 col-md-offset-0 col-xs-8 col-xs-offset-2 signinbodyform">
+      			<h4>Signin with your itbuddy account</h4>
+      			<p>welcome back! Enter your password to login!</p>
+      			<hr/>
+      			<div class="">
+      				<input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+      			</div>
+      			<br/>
+      			<div class="">
+      				<input type="password" class="form-control" placeholder="password" aria-describedby="basic-addon1">
+      			</div>
+      			<div class="text-md-right" style="text-align:right">
+      				<a href="#" >Forgot your password?</a>
+      			</div>
+      			<br/>
+      			<div class="">
+      				<button class="btn signinBtn">SIGN IN</button>
+      			</div>
+      			
+      			
+      		</div>
+      		<div class="col-md-6 col-md-offset-0 col-xs-8 col-xs-offset-2 createaccoutnbodyform">
+      			<h4>Create an ITBuddy account</h4>
+      			<p>Please enter your details below</p>
+      			<hr/>
+      			<div class="">
+      				<input type="text" class="form-control" placeholder="email" aria-describedby="basic-addon1">
+      				<br/>
+      				<input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
+      				<br/>
+      				<input type="text" class="form-control" placeholder="Phone Nummber" aria-describedby="basic-addon1">
+      				<br/>
+      				<input type="password" class="form-control" placeholder="Password" aria-describedby="basic-addon1">			
+      			</div>  			
+      			
+      			<br/>
+      			<div class="">
+      				<button class="btn signinBtn">SIGN IN</button>
+      			</div>
+      			
+      			
+      		</div>
+
+      		<div class="col-md-4 col-md-offset-1 col-xs-8 col-xs-offset-2 socialiconsrow">
+      			<div class="row">
+      				<button class="btn btn-fb">Facebook</button>
+      			</div>
+      			<br/>
+      			<div class="row">
+      				<button class="btn btn-google">Google</button>
+      			</div>
+      		</div>
+      	</div>
+        
+      </div>
+      <div class="modal-body createAccount">
+      </div> 
+      <div class="modal-footer" style="text-align:left;">
+      		<p id="createAccount" class="signup-link">Don't have a ITBuddy account? <a href="javascript:void(0);" id="loadSignup">Click here</a> to create one</p>
+      		<p id="createAccount" class="createaccount-link">Already have an account? <a href="javascript:void(0);" id="loadSignin">Sign in</a></p>
+        <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    
+    
+    
+    <!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/bootstrap.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/loginchoose.js"></script>
+
+	</body>
+
+</html>

@@ -1,0 +1,41 @@
+
+.commitmentSection{
+	margin-top: 40px;	
+}  
+#header{
+	background-color: #000;
+}
+
+  
+
+.signupmenu{
+	background-color: #1FBAD6;
+	text-align: center;
+	font-weight: bold;
+}
+
+.loginmenu{
+	font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+}
+
+
+@media screen and (max-width: 1170px) {
+}	
+
+@media screen and  (max-width: 1280px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 480px) {
+	.servicerow{
+		margin-top: 7px;
+	}
+}
+
+@media screen and (max-width: 1680px){
+}
+

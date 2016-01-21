@@ -1,0 +1,191 @@
+.loginchoose{
+	text-align: center;
+	color: #fff;
+}
+
+.focused-view-subtitle {
+    font-size: 20px;
+    color: #c2c2c2;
+    text-transform: uppercase;
+}
+.border-center:after{
+	background: #fff;
+    content: "";
+    display: block;
+    height: 2px;
+    margin-top: -15px;
+    width: 40%;
+}
+.border-center:before{
+	background: #fff;
+    content: "";
+    display: block;
+    height: 2px;
+    margin-left: 60%;
+    margin-bottom: -14px;
+    width: 40%;
+}
+.border-center>span{
+	    display: inline-block;
+    padding: 0 20px;
+    color: #fff;
+}
+.rows .row{
+	margin-bottom: 25px;
+}
+
+
+#fcModal .modal-footer{
+    border-top: none;
+}
+.header{
+	height: 30%;
+}
+
+#fcModal .createaccount-link{
+    display:none;
+}
+#fcModal.signup .createaccount-link{
+    display:block;
+}
+#fcModal .createaccoutnbodyform{
+    display: none;
+}
+#fcModal.signup .createaccoutnbodyform{
+    display: block;
+}
+
+#fcModal.signup .signup-link{
+    display:none;
+}
+
+#fcModal.signup .signinbodyform{
+    display: none;
+}
+
+
+
+
+
+#buddyModal .createaccount-link{
+    display:none;
+}
+#buddyModal.signup .createaccount-link{
+    display:block;
+}
+#buddyModal .createaccoutnbodyform{
+    display: none;
+}
+#buddyModal.signup .createaccoutnbodyform{
+    display: block;
+}
+
+#buddyModal.signup .signup-link{
+    display:none;
+}
+
+#buddyModal.signup .signinbodyform{
+    display: none;
+}
+body {
+    background-image: url("http://www.vabox.org/itbuddy/images/banner.jpg");
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.loginchoose button{
+	width: 100%;
+	font-size: 1.25em;
+	background-color: #1fbad6;
+	border-radius: 0;
+	padding: 9px 12px;
+}
+.loginchoose button.customerBtn{
+	background-color: #070716;
+}
+
+
+.signin.holder {
+    border: 1px solid #eaedef;
+    padding: 40px 40px 20px;
+    background-color: #FFF;
+   
+}
+
+#fcModal .modal-body{
+	padding: 15px 5px 0px 50px;
+}
+
+.signinbody .signinBtn{    
+    background: #65c6bb;
+       
+}
+
+.signinbody button, .socialiconsrow button{
+    width: 100%;
+    border-radius: 0;
+    padding: 2% 0; 
+}
+.signinbody input{
+    border-radius: 0;
+}
+
+
+@media (min-width: 768px){
+    .modal-dialog {
+        width: 650px !important;
+        margin: 30px auto;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+	
+}
+
+
+@media screen and (max-width: 1170px) {
+	.socialiconsrow{
+		margin-top: 15%;
+	}
+}	
+
+@media screen and  (max-width: 1280px) {
+.socialiconsrow{
+		margin-top: 15%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+@media screen and (max-width: 480px) {
+	.servicerow{
+		margin-top: 7px;
+	}
+}
+
+@media screen and (max-width: 1680px){
+}
+
+
+.btn-fb, .btn-fb:focus, .btn-fb:hover {
+    background: #3c5a98 url(images/socialLoginButtonIcons.png) left top no-repeat;
+    border: 0;
+    font-size: 16px;
+    height: 50px;
+    color: #fff;
+}
+
+.btn-google, .btn-google:focus, .btn-google:hover {
+    background: #dd4d3b url(images/socialLoginButtonIcons.png) left -70px no-repeat;
+    border: 0;
+    font-size: 16px;
+    height: 50px;
+    color: #fff;
+}
+
+.modal{
+	overflow-y: auto;
+}

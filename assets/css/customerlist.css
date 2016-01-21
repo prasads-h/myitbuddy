@@ -1,0 +1,82 @@
+body {
+    background-image: url("http://www.vabox.org/itbuddy/images/banner.jpg");
+    font-family: 'Roboto', sans-serif;
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.list-container{	
+	
+	
+
+}
+.mainbody{
+	margin: 3%;
+	padding:0% 3% 0% 1%;
+	background-color: rgba(215, 217, 215, 0.7);
+
+	height: 500px;
+}
+.leftpane{
+	margin-top: 1%;
+	padding-right: 2%;
+	border-right: 1px solid #d4d9d7;
+	height: 100%;
+
+}
+.rightpane{
+	margin-top: 1%;
+}
+
+.custprofile{
+	border-bottom: 1px solid #d4d9d7;
+}
+.customerdetails{
+	padding: 2% 0% 0% 2%;
+}
+
+.customerdetails .assitBtnRow{
+	margin-top: 4%;
+}
+
+.btn-red{
+	background-color: #ed4933;;
+}
+
+
+ul li{
+	list-style-type: none;
+
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul.customerlist{
+	margin-top: 3%;
+}
+
+ul.customerlist li{
+	border-bottom: 3px dotted #d4d9d7;
+	padding: 2%;
+	cursor: pointer;
+}
+
+.buddydetails{
+	display: none;
+}
+
+.showBuddyProfile .buddydetails{
+	display: block;
+}
+.showBuddyProfile .customerlist{
+	display: none;
+}
+.showBuddyProfile .searchbox{
+	display: none;
+}
+
+.buddyprofile{
+	min-height: 50px;
+	cursor: pointer;
+}
